@@ -38,6 +38,6 @@ public class HelloControllerIT {
                 String.class);
         assertThat(response.getBody(), equalTo("<h1>Hello World!</h1>\n" +
     "<p>This web app is powered by \n" +
-    "<a href='https://github.com/mygithubid/spring-boot-minimal-webapp'>this github repo</a></p>\n"));
+    "<a href='https://github.com/watercannons/spring-boot-minimal-webapp'>this github repo</a></p>\n"));
     }
 }
